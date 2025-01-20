@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+}
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+.header {
+  padding-top: 20px;
+  position: absolute;
+  width: 100%;
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+  gap: 30px;
+}
+.header a {
+  color: white;
+  font-size: 1.3rem;
+}
+.banner-section {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(29, 2, 2, 0.7), rgba(2, 13, 24, 0.7)),
+    url(banner-pic.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: -1;
+}
+.banner-text h1 {
+  font-size: 7rem;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+.banner-text p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 1;
+  margin-bottom: 5rem;
+}
+.banner-section a {
+  padding: 20px 40px;
+  border: 1px solid #eb1478;
+  background-color: #eb1478;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+.websiteName {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+.banner-section img {
+  width: 1005;
+}
