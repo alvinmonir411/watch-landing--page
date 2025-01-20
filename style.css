@@ -43,6 +43,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
   z-index: -1;
 }
 .banner-text h1 {
@@ -73,4 +74,42 @@
 }
 .banner-section img {
   width: 1005;
+}
+@media screen and (max-width: 570px) {
+  .header {
+    justify-content: center;
+  }
+
+  .banner-text {
+    margin-top: 10rem;
+    flex-direction: column;
+  }
+  .banner-text h1 {
+    font-size: 3rem;
+  }
+  .banner-text p {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .banner-section {
+    background-position: center;
+    background-size: cover;
+    height: 185vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 571px) and (max-width: 1080px) {
+  .banner-section {
+    height: 150vh;
+    gap: 0;
+  }
+  .banner-text {
+    margin-top: 100px;
+  }
 }
